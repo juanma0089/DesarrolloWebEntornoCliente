@@ -10,5 +10,6 @@ alert(a + b); // 12 */
 
 let a = prompt("¿Primer número?", 1);
 let b = prompt("¿Segundo número?", 2);
-//corrección deberemos especicar que tipo de valor en este caso "Number" tiene las variables ya que sino con el operador + nos lo concatena
+
+//*corrección deberemos especicar que tipo de valor en este caso "Number" tiene las variables ya que sino con el operador + nos lo concatena
 alert(Number(a) + Number(b)); 

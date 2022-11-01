@@ -10,8 +10,9 @@ importan aquí, el punto es que age se calcula de alguna forma basándose en cum
 const CUMPLE = '18.04.1982'; // ¿cumple en mayúsculas?
 const AGE = someCode(CUMPLE); // ¿age en mayúsculas? */
 
-/*La variable CUMPLE en mayusculas ya que es la que no cambiará de valor.
-La variable age puede cambiar de valor según la constante que reciba*/
+//*La variable CUMPLE en mayusculas ya que es la que no cambiará de valor.
+//*La variable age puede cambiar de valor según la constante que reciba
+
 "use strict";
 
 const CUMPLE = '18.04.1982';

@@ -7,5 +7,5 @@ let x = 1 + (a *= 2);*/
 
 let a = 2;
 let x = 1 + (a *= 2);
-/* El resultado de (a *=2) es 4. Primero se realiza 
-la operación dentro del parentesis(contiene una multiplicación)*/
+//* El resultado de (a *=2) es 4. Primero se realiza 
+//*la operación dentro del parentesis(contiene una multiplicación)

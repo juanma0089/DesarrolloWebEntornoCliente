@@ -7,8 +7,8 @@ nombrarías a dicha variable?*/
 
 let miCiudad = "Dos Hermanas";
 
-/*Utilizo miCiudad ya que es un nombre decriptivo que define la variable sin nombres reservados a la vez que es clara su definición */
+//*Utilizo miCiudad ya que es un nombre decriptivo que define la variable sin nombres reservados a la vez que es clara su definición
 
 let userName;
 
-/*Con userName la variable deja claro que se va a tratar de un nombre de usuario */
+//*Con userName la variable deja claro que se va a tratar de un nombre de usuario ¡

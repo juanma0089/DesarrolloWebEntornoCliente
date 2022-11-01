@@ -6,5 +6,7 @@ let d = b++; //\ ?*/
 "use strict";
 
 let a = 1, b = 1;
-let c = ++a;// c = 2      c toma el valor de (a + a) ya que los operadores esta puesto antes de la variable
-let d = b++;//d = 1       d toma el valor de b antes de hacer la suma ya que los operadores estan posterior a la variable
+
+let c = ++a; //* c = 2      c toma el valor de (a + a) ya que los operadores esta puesto antes de la variable
+
+let d = b++; //*d = 1       d toma el valor de b antes de hacer la suma ya que los operadores estan posterior a la variable
