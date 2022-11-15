@@ -8,26 +8,20 @@ alert( isEmpty(schedule) ); // false*/
 "use strict";
 
 let schedule = {};
-isEmpty(schedule);
+alert( isEmpty(schedule) ); 
 schedule["8:30"] = "Hora de levantarse";
-isEmpty(schedule);
+alert( isEmpty(schedule) );
 
 function isEmpty(obj) {
 
-    for (let key in obj) {
+    for (let i in obj) {
 
-        console.log(obj[key]);  
-
-        if (obj[key] != null) {
+        if (obj[i] != null) {
 
             return false;
 
-        } else {
-
-            return true;
-        }
-        
+         }    
     }
 
-   
+    return true;
 }
